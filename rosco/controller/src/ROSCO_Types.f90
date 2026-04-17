@@ -7,7 +7,7 @@ USE, INTRINSIC :: ISO_C_Binding
 USE Constants
 IMPLICIT NONE
 
-Character(*), PARAMETER     :: rosco_version = '2.10.1'             ! ROSCO version
+Character(*), PARAMETER     :: rosco_version = '2.10.5'             ! ROSCO version
 
 TYPE, PUBLIC :: ControlParameters
     INTEGER(IntKi)                :: ZMQ_ID                      ! 0000 - 9999, Identifier of the rosco, used for zeromq interface only
